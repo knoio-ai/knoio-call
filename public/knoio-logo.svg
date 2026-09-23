@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 100" role="img" aria-labelledby="title">
+  <title id="title">knoio</title>
+  <g>
+    <rect x="8" y="6" width="24" height="43" rx="4" fill="#102431"/>
+    <rect x="8" y="55" width="24" height="39" rx="4" fill="#55D6E8"/>
+    <path d="M39 42 59 18a6 6 0 0 1 4.6-2H91a3 3 0 0 1 2.1 5.1L58 49H43.6A5.8 5.8 0 0 1 39 42Z" fill="#285D7A"/>
+    <path d="M39 58 59 82a6 6 0 0 0 4.6 2H91a3 3 0 0 0 2.1-5.1L58 51H43.6A5.8 5.8 0 0 0 39 58Z" fill="#2457E6"/>
+  </g>
+  <text x="108" y="75" fill="#102431"
+        font-family="'Avenir Next', Avenir, 'Helvetica Neue', Arial, sans-serif"
+        font-size="64" font-weight="500" letter-spacing="-2.5">knoio</text>
+</svg>

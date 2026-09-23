@@ -94,9 +94,22 @@ before using one further down the tree. */
 }
 
 .cpd-theme-dark {
-  --cpd-color-border-accent: var(--cpd-color-green-1100);
+  /* knoio brand: dark-blue canvas + cyan accent (replaces Element green) */
+  --knoio-bg: #102431;
+  --knoio-accent: #55d6e8;
+  --knoio-accent-hover: #44c5d7;
+  --knoio-accent-pressed: #3ab4c6;
+
+  --cpd-color-bg-canvas-default: var(--knoio-bg);
+  --cpd-color-bg-canvas-disabled: #0c1d27;
+  --cpd-color-border-accent: var(--knoio-accent);
+  --cpd-color-icon-accent-primary: var(--knoio-accent);
+  --cpd-color-text-action-accent: var(--knoio-accent);
+  --cpd-color-bg-action-primary-rest: var(--knoio-accent);
+  --cpd-color-bg-action-primary-hovered: var(--knoio-accent-hover);
+  --cpd-color-bg-action-primary-pressed: var(--knoio-accent-pressed);
   --stopgap-color-on-solid-accent: var(--cpd-color-text-primary);
-  --stopgap-background-85: rgba(16, 19, 23, 0.85);
+  --stopgap-background-85: rgba(16, 36, 49, 0.85);
 }
 
 @media (min-height: 330px) {
