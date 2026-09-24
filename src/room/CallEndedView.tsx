@@ -84,9 +84,10 @@ export const CallEndedView: FC<Props> = ({
           calls
         </p>
       </Trans>
-      {/* Only guests of the standalone app are ever passwordless, so this
-      route is always the standalone app's own. */}
-      <LinkButton className={styles.callEndedButton} to="/register">
+      {/* Link to /login rather than /register: servers with SSO-only auth
+      (no password login) redirect /login straight to the SSO provider, so
+      the user completes sign-in via their identity provider. */}
+      <LinkButton className={styles.callEndedButton} to="/login">
         {t("call_ended_view.create_account_button")}
       </LinkButton>
     </div>
